@@ -6,10 +6,11 @@ target 'FlickrDemo' do
   use_frameworks!
 
   # Pods for FlickrDemo
+  
+	pod 'Alamofire'
+    pod 'FlickrKit'
+    pod 'SDWebImage'
 
-  target 'FlickrDemoTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end
+

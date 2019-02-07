@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.6.0)
+  - FlickrKit (1.0.9)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - FlickrKit
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - FlickrKit
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  FlickrKit: 79ffaf64a12293ba2b1aa8a2e53a4958cb113256
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+
+PODFILE CHECKSUM: e602d553e3bba980a7a13ea6cc786f74144cb8f8
+
+COCOAPODS: 1.5.3
