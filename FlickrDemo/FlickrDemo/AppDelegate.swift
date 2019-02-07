@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  FlickrDemo
+//  FlickerDemo
 //
-//  Created by RailYatri on 07/02/19.
+//  Created by RailYatri on 05/02/19.
 //  Copyright © 2019 MoharSingh. All rights reserved.
 //
 
 import UIKit
+import FlickrKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        
+//        FlickrKit.shared().initializeWithAPIKey(AppConstants.FlickrApiKey, sharedSecret: AppConstants.FlickrSecret)
+
+        FlickrKit.shared().initialize(withAPIKey: AppConstants.FlickrApiKey, sharedSecret: AppConstants.FlickrSecret)
+        
         return true
     }
 
